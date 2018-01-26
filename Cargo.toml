@@ -1,0 +1,14 @@
+[package]
+name = "pdfork"
+version = "0.0.0"
+authors = [ "Greg V <greg@unrelenting.technology>" ]
+keywords = [ "System", "FreeBSD", "Capsicum", "fork" ]
+description = "fork wrapper that uses process descriptors (pdfork) on FreeBSD and normal fork elsewhere"
+license = "Unlicense"
+readme = "README.md"
+homepage = "https://github.com/myfreeweb/pdfork"
+repository = "https://github.com/myfreeweb/pdfork"
+
+[dependencies]
+#libc = "0"
+libc = { path = "../../rust-lang/libc" }
