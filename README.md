@@ -1,3 +1,6 @@
+[![unlicense](https://img.shields.io/badge/un-license-green.svg?style=flat)](http://unlicense.org)
+[![crates.io](https://img.shields.io/crates/v/pdfork.svg)](https://crates.io/crates/pdfork)
+
 # pdfork
 
 A Rust fork wrapper that uses process descriptors (pdfork) on FreeBSD and normal fork elsewhere.
